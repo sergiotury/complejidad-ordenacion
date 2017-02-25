@@ -5,6 +5,6 @@ package es.upm.dit.adsw.ej1;
  */
 public interface Sortable {
 
-    void sort(String[] datos);
+     void sort(String[] datos);
 
 }

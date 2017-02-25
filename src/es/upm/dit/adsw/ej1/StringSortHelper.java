@@ -26,6 +26,11 @@ public class StringSortHelper {
      * @param datos Strings.
      * @return TRUE si los datos estan ordenados entre [a, z).
      */
+
+    public static boolean isSorted(String[] datos){
+        return isSorted(datos,0,datos.length);
+    }
+
     public static boolean isSorted(String[] datos, int a, int z) {
         for (int i = a; i + 1 < z; i++) {
             if (datos[i].compareTo(datos[i + 1]) > 0) {
